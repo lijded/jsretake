@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+}
+
+.item h2 {
+  margin: 0;
+  font-size: 20px;
+  overflow-wrap: anywhere;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+
+.counter button {
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+}
+
+@media (max-width: 420px) {
+  .item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

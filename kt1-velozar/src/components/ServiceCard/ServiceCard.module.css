@@ -1,0 +1,21 @@
+.card {
+  min-height: 360px;
+  padding: 60px 40px;
+  color: white;
+}
+
+.card h2 {
+  border-top: 1px solid white;
+  padding-top: 25px;
+  font-size: 30px;
+  line-height: 36px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+@media (max-width: 750px) {
+  .card {
+    min-height: 260px;
+    padding: 50px 30px;
+  }
+}

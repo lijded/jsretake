@@ -1,0 +1,51 @@
+.header {
+  min-height: 150px;
+  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  width: 105px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+  margin-top: 12px;
+  color: black;
+  font-size: 15px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  border: none;
+  border-radius: 20px;
+  padding: 14px 28px;
+  background: #f9b640;
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: 20px 25px;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 80px;
+  }
+  .menu {
+    order: 3;
+    width: 100%;
+    gap: 25px;
+    margin-top: 0;
+  }
+}

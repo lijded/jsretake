@@ -1,0 +1,10 @@
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 750px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+}
